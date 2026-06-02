@@ -1,0 +1,43 @@
+{
+  "routes": [
+    {
+      "path": "/"
+    },
+    {
+      "path": "/battle"
+    },
+    {
+      "path": "/upgrade"
+    },
+    {
+      "path": "/settings"
+    },
+    {
+      "path": "/skins"
+    },
+    {
+      "path": "/encyclopedia"
+    },
+    {
+      "path": "/shop"
+    },
+    {
+      "path": "/warehouse"
+    },
+    {
+      "path": "/equipment"
+    },
+    {
+      "path": "/achievements"
+    },
+    {
+      "path": "/titles"
+    },
+    {
+      "path": "/checkin"
+    },
+    {
+      "path": "/vip"
+    }
+  ]
+}
