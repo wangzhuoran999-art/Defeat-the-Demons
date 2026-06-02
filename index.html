@@ -2,9 +2,9 @@
 <html lang="">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="./favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Defeat the Demons</title>
     <script src="https://cdn.yyb.gtimg.com/app-generator-h5-runtime-lib/latest/app-generator-h5-runtime-lib.iife.js"></script>
     <script>
       if (
@@ -15,11 +15,13 @@
       }
     </script>
     <link rel="stylesheet" type="text/css" href="https://cdn.yyb.gtimg.com/app-generator-h5-runtime-lib/latest/app-generator-h5-runtime-lib.css" />
-    
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.14.2/dist/system.min.js"></script>
   </head>
   <body>
     <div id="app"></div>
-    <script crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-C_c5PSzr.js"></script>
-    <script crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-DkDRSkGg.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-C_c5PSzr.js"></script>
+    <script crossorigin id="vite-legacy-entry" data-src="./assets/index-legacy-DkDRSkGg.js">
+      System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'));
+    </script>
   </body>
 </html>
